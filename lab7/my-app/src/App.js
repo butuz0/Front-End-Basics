@@ -1,7 +1,7 @@
 import React from "react";
 import Header from "./components/Header";
 import MainContent from "./components/MainContent";
-import Footer from "./components/Footer";
+import Image from "./components/Image";
 import Product from "./components/GoodsCard";
 
 function App() {
@@ -27,7 +27,7 @@ function App() {
             <div>
                 <Header />
                 <MainContent />
-                <Footer />
+                <Image />
             </div>
             <h1>Галерея товарів</h1>
             <div style={flex}>
